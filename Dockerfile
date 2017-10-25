@@ -1,4 +1,4 @@
-FROM edbizarro/bitbucket-pipelines-php7:7.1
+FROM edbizarro/bitbucket-pipelines-php7
 
 RUN apt-get update \
  && apt-get install make \
